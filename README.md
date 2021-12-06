@@ -1,6 +1,6 @@
 # web-dashboard
 
-I made a simple project in flutter where i create a foncitonnal webapp.
+I made a simple project in flutter where i created a functional webapp.
 
 
 ## Getting Started
