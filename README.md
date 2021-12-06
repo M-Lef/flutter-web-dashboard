@@ -1,6 +1,7 @@
-# NTFG
+# web-dashboard
 
-A new Flutter project.
+I made a simple project in flutter where i create a foncitonnal webapp.
+
 
 ## Getting Started
 
