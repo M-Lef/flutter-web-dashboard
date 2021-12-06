@@ -11,7 +11,8 @@ class SiteLayout extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      key: scaffoldkey,
+        key: scaffoldkey,
+        extendBodyBehindAppBar: true,
         appBar: topNavigatioBar(context, scaffoldkey),
         drawer: Drawer(
           child: SideMenu(),

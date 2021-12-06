@@ -1,13 +1,27 @@
-import 'dart:html';
+const rootRoute = "/MainPage";
 
-const OverVIewPageRoute = "Overview";
-const DriversPageRoute = "Drivers";
-const ClientsPageRoute = "Clients";
-const AuthentificationPageRoute = "Authentification";
+const overviewPageDisplayName = "Overview";
+const overviewPageRoute = "/overview";
 
-List sideMenuItems = [
-  OverVIewPageRoute,
-  DriversPageRoute,
-  ClientsPageRoute,
-  AuthentificationPageRoute
+const driversPageDisplayName = "Drivers";
+const driversPageRoute = "/drivers";
+
+const clientsPageDisplayName = "Clients";
+const clientsPageRoute = "/clients";
+
+const authenticationPageDisplayName = "Log out";
+const authenticationPageRoute = "/auth";
+
+class MenuItem {
+  final String name;
+  final String route;
+
+  MenuItem(this.name, this.route);
+}
+
+List<MenuItem> sideMenuItemRoutes = [
+  MenuItem(overviewPageDisplayName, overviewPageRoute),
+  MenuItem(driversPageDisplayName, driversPageRoute),
+  MenuItem(clientsPageDisplayName, clientsPageRoute),
+  MenuItem(authenticationPageDisplayName, authenticationPageRoute),
 ];

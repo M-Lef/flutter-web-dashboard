@@ -25,10 +25,10 @@ AppBar topNavigatioBar(BuildContext context, GlobalKey<ScaffoldState> key) =>
       elevation: 0,
       title: Row(
         children: [
-          Visibility(
+          const Visibility(
               child: CustomText(
             text: "Dash",
-            color: lightgrey,
+            color: Colors.grey,
             size: 20,
             weight: FontWeight.bold,
           )),
@@ -71,7 +71,7 @@ AppBar topNavigatioBar(BuildContext context, GlobalKey<ScaffoldState> key) =>
           CustomText(
               text: "Santos Enoque",
               size: 16,
-              color: lightgrey,
+              color: Colors.black,
               weight: FontWeight.normal),
           const SizedBox(
             width: 16,
@@ -94,5 +94,5 @@ AppBar topNavigatioBar(BuildContext context, GlobalKey<ScaffoldState> key) =>
         ],
       ),
       iconTheme: IconThemeData(color: dark),
-      backgroundColor: light,
+      backgroundColor: Colors.transparent,
     );

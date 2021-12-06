@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:ntfg/helpers/local_navigator.dart';
 import 'package:ntfg/widgets/side_menu.dart';
 
 class LargeScreen extends StatelessWidget {
@@ -13,9 +14,8 @@ class LargeScreen extends StatelessWidget {
         Expanded(
           flex: 5,
           child: Container(
-            color: Colors.blue,
-          ),
-        )
+            padding: EdgeInsets.symmetric(horizontal: 16),
+            child: localNavigator()))
       ],
     );
   }
